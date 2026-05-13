@@ -728,3 +728,14 @@ section {
     transform: scale(1.08) rotate(-4deg);
 
 }
+
+.about-content {
+
+    text-align: center;
+
+    max-width: 900px;
+
+    margin: 0 auto;
+
+}
+
