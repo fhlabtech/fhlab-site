@@ -729,13 +729,32 @@ section {
 
 }
 
+/* ========================================= */
+/* ABOUT */
+/* ========================================= */
+
 .about-content {
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    gap: 25px;
 
     text-align: center;
 
-    max-width: 900px;
-
-    margin: 0 auto;
-
 }
 
+.about-content p {
+
+    max-width: 850px;
+
+    color: #a0a0a0;
+
+    line-height: 1.9;
+
+    font-size: 18px;
+
+}
